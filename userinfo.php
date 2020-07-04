@@ -22,7 +22,7 @@ echo "$query";
 
 mysqli_query($con, $query);
 
-header('location:index.php')
+header('location:index.html')
 
 
  ?>
