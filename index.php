@@ -1,3 +1,8 @@
+<?php
+
+$con = mysqli_connect('localhost','root');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
