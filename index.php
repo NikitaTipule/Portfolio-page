@@ -45,8 +45,8 @@ $con = mysqli_connect('localhost','root');
  			<h3>Hello,</h3>
  			<h1>I'M NIKITA</h1>
  			<h3>I Am A Computer Engineering <br> Student</h3>
- 			<button class="intern-me">Intern Me</button>
- 			<button class="down-cv">Download CV</button>
+ 			<button class="intern-me"><a href="#subscribe-me">Intern Me</a></button>
+ 			
  	 </div>
 	</div>
 	<section class="my-5" id="about-me">
