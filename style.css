@@ -132,3 +132,16 @@ a:hower i{
 	align-content: center;
 	margin-left:250px
 }
+
+
+#education {
+  Padding-top:50px;
+  Padding-bottom:50px;
+  Text-align:center;
+  Color:#f8f8f8;
+  Background:url(images/education.jfif);
+  Background-size:cover;
+  Border:1px #000 solid;
+  margin-left: 200px;
+  margin-right: 200px;
+}
