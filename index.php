@@ -214,8 +214,8 @@ $con = mysqli_connect('localhost','root');
 					<div class="media">
 						<a class="social" href="https://www.instagram.com/nikita.t_26" target="blank"><I class="fa fa-3x fa-instagram" aria-hidden="true"></I></a>
 						<a class="social" href="https://twitter.com/Nikita78179747" target="blank"><I class="fa fa-3x fa-twitter" aria-hidden="true"></I></a>
-						<a class="social" href="https://www.instagram.com/nikita.t_26" target="blank"><I class="fa fa-3x fa-instagram" aria-hidden="true"></I></a>
-						<a class="social" href="https://www.instagram.com/nikita.t_26" target="blank"><I class="fa fa-3x fa-instagram" aria-hidden="true"></I></a>
+						<a class="social" href="https://https://www.linkedin.com/in/nikita-tipule-845a791b1/" target="blank"><I class="fa fa-3x fa-linkedin" aria-hidden="true"></I></a>
+						<a class="social" href="#" target="blank"><I class="fa fa-3x fa-facebook" aria-hidden="true"></I></a>
 					
 				</div>
 			</div>
