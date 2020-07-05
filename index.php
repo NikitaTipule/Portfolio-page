@@ -1,8 +1,3 @@
-<?php
-
-$con = mysqli_connect('localhost','root');
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,10 +54,18 @@ $con = mysqli_connect('localhost','root');
 			<img src="images/logo.jfif" class="img-fluid">	
 		</div>
 		<div class="col-lg-8 col-md-8 col-12">
-			<h4>Hello,</h4>
-			<h3> My Name Is Nikita Sopan Tipule.</h3> 
-			<p>I Am A Computer Engineering Student Of College Of Engineering Pune.I Know Python And C Language As Well As Little Bit Of C++. If You Have Any Project In Your Mind Then Work With Me. You Will Really Like My Work , If You Don't Then I Will Improve It Until You Will Like I Will Give You Satisfactory Result.</p>
- 			<p>I Am A Programmer . If You Want To Create A Software For Your Business Then I Will Make It Available As Soon As Possible.</p>
+<?php
+$conn=mysqli_connect("localhost","root","");
+$db=mysqli_select_db($conn,"portfoliouserdata");
+$query="select * from about";
+$result=mysqli_query($conn,$query) or die(mysqli_error());
+
+while($row=mysqli_fetch_array($result)){
+		?>
+            <h4><?php echo $row[1]; ?></h4>
+<?php
+}
+?>
 		</div>
 	</div>
 	</div>
@@ -77,13 +80,19 @@ $con = mysqli_connect('localhost','root');
   
  	 <div id="education">
  	 	<div class="text-conatiner" style="color: white">
- 			<li><p><b>Studies Computer Engineering at COEP Pune, Maharashtra, India</b></p></li>
-                <br>
-                <li><p><b>Studies at Collage of Engineering Pune, Maharashtra, India</b></p></li>
-                <br>
-                <li><p><b>Studied at Bhausaheb Firodiya College Ahmednagar, Maharashtra, India</b></p></li>
-                <br>
-                <li><p><b>Went to Bhausaheb Firodiya Highschool Ahmednagar, Maharashtra, India</b></p></li>
+        <?php
+$conn=mysqli_connect("localhost","root","");
+$db=mysqli_select_db($conn,"portfoliouserdata");
+$query="select * from college";
+$result=mysqli_query($conn,$query) or die(mysqli_error());
+
+while($row=mysqli_fetch_array($result)){
+		?>
+            <p><b><?php echo $row[1]; ?></b></p><br>
+<?php
+}
+?>
+		 </div>	
  	 </div>
 	</div>   
 </section>
