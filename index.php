@@ -67,6 +67,26 @@ $con = mysqli_connect('localhost','root');
 	</div>
 	</div>
 	</section><br>
+		
+		<section class="my-5">
+		<div class="py-5" id="head">
+			<h2 class="text-center">Education</h2>
+		</div>
+      <div class="container">
+ 	 
+  
+ 	 <div id="education">
+ 	 	<div class="text-conatiner" style="color: white">
+ 			<li><p><b>Studies Computer Engineering at COEP Pune, Maharashtra, India</b></p></li>
+                <br>
+                <li><p><b>Studies at Collage of Engineering Pune, Maharashtra, India</b></p></li>
+                <br>
+                <li><p><b>Studied at Bhausaheb Firodiya College Ahmednagar, Maharashtra, India</b></p></li>
+                <br>
+                <li><p><b>Went to Bhausaheb Firodiya Highschool Ahmednagar, Maharashtra, India</b></p></li>
+ 	 </div>
+	</div>   
+</section>
 
 
 
